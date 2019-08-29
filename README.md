@@ -13,20 +13,24 @@ Please ensure this is run on a RaspBerryPi SOE to this [specification](https://d
 * python libs (python-serial python-pathlib2 python-lockfile python-daemon python-setproctitle)
 ### Running manually
 To run the app manually you first download the app:
-```$ git clone https://github.com/stephenbeauchamp/sensa-rpi-gmc.git
+```
+$ git clone https://github.com/stephenbeauchamp/sensa-rpi-gmc.git
 $ cd sensa-rpi-gmc
 ```
 To run the app:
-```$ python main.py
+```
+$ python main.py
 ```
 
 This will open the application and run it once. To run it continuously (control+c to exit):
-```$ python main.py -c
+```
+$ python main.py -c
 $ python main.py --continuous
 ```
 
 And to execute it as a daemon (`$ pkill sensa-rpi-gmc` to close the daemon):
-```$ python main.py -d
+```
+$ python main.py -d
 $ python main.py --daemon
 ```
 ### the config file
