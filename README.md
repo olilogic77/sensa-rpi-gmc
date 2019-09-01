@@ -14,7 +14,7 @@ Please ensure this is run on a RaspBerryPi SOE to this [specification](https://d
 ### Running manually
 To run the app manually you first download the app:
 ```
-$ git clone https://github.com/stephenbeauchamp/sensa-rpi-gmc.git
+$ git clone https://github.com/olilogic77/sensa-rpi-gmc
 $ cd sensa-rpi-gmc
 ```
 To run the app:
