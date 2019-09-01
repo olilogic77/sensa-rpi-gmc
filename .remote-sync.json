@@ -6,7 +6,7 @@
   "useAtomicWrites": true,
   "deleteLocal": false,
   "hostname": "192.168.192.12",
-  "target": "/source-code/github.com_stephenbeauchamp/sensa-rpi-gmc",
+  "target": "/source-code/github.com_olilogic77/sensa-rpi-gmc",
   "ignore": [
     ".remote-sync.json",
     ".git/**"

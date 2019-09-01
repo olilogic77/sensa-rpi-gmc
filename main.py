@@ -19,7 +19,8 @@ def main():
             Tk.error( "cpm reading not valid '{}'".format(val) )
         else:
             val = Tk.convert_msf_unsgned_short_to_string( raw )
-            Tk.save_sensa_datafile( node_id, sensor_id, '{:.4f}'.format(val) )
+            #// Tk.save_sensa_datafile( node_id, sensor_id, '{:.4f}'.format(val) )
+            Tk.queue_publish( node_id, sensor_id, '{:.4f}'.format(val) )
         Tk.app_pause( run_interval_sec )
     Tk.info( 'Main Loop Ends...' )
 
